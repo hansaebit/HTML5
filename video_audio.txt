@@ -1,0 +1,48 @@
+<!--
+	youtube audiolibrary : 유튜브 오디오라이브러리 (저작권 x)
+	비디오 컨트롤러 : attribute controls
+	autoplay : 바로 재생.
+	muted : 음소거
+	loop : 반복재생
+	* 소리가 있는 비디오는 바로 재생하면 안된다.
+	* html에서는 px 단위를 쓰지 않는다. (css에서 해야 한다.)
+	poster="video/intro.jpg" : 비디오 사진.
+	preload="auto" : 미리 로드.
+	
+	브라우저마다 비디오 컨트롤러가 다르다. ui를 똑같이 보여주고 싶으면 라이브러리를 이용해야 한다.
+	videojs.com (site) : viedo 컨트롤러 라이브러리.
+	
+	youtube 영상 받는 법.
+	https://www.ssyoutube.com/.... ( youtube앞에 ss 붙이기 )
+	우클릭 동영상을 받기 하면 됨.
+	
+	youtube 공유 퍼가기로 영상 가져오기. (공유 - 퍼가기)
+	<iframe>은 가상의 프레임을 만들어서 거기에 넣는것! (광고가 붙음.)
+	
+	vimeo.com (site) : 광고가 없다. 하지만 용량의 제한이 있음.
+-->
+<!doctype html>
+<html lnag="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>타이틀</title>
+		<meta name="keywords" content="키워드">
+		<meta name="description" content="설명">
+		<meta name="robot" content="all">
+		<meata name="viewport" content="width=device-width, initial-scale=1"
+	</head>
+	<body>
+		<video controls muted loop poster="video/intro.jpg" preload="auto">
+			<source src="video/sameple.ogv" type="video/ogv"/>
+			<source src="video/sameple.mp4" type="video/mp4"/>
+			<source src="video/sameple.webm" type="video/webm"/>
+			<p>이 브라우저는 video 요소를 지원하지 않습니다.</p>
+		</video>
+		
+		<audio controls>
+			<source src="......ogg" type="audio/ogg">
+			<source src="......mp3 type="audio/mpeg">
+			<p>이 브라우저는 audio 요소를 지원하지 않습니다.</p>
+		</audio>
+	</body>
+</html>

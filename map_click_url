@@ -1,0 +1,21 @@
+<!-- 이미지 맵픽
+imagemapic (프로그램) : 이미지의 좌표에 링크를 걸어 클릭하면 이동 할 수 있게 만들어 줌.
+ - save html code ==> html 파일로 저장이 됨.
+ - 에디터로 열면 <map name과 usemap의 이름을 반드시 일치시켜야 한다.
+ (이미지 소스의 경로를 설정 해줘야 함.)
+ - 복사에서 붙여넣으면 된다.
+-->
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+	<meta charset="utf-8">
+	<title>HTML 연습</title>
+	<meta name="keywords" content="html,css">
+	<meta name="disciption" content="">
+	<meta name="robots" content="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	
+	</body>
+<html>
