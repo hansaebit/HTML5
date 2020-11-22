@@ -1,0 +1,95 @@
+<!-- 1, 2강
+attribute 태그 내 속성 
+value 태그 내 속성의 값. (<div attribute="value">)
+<a href="http://naver.com">content</a>
+a : 시작태그
+href: attribute
+http...: value
+content: content
+/a : 종료태그
+w3 validator(site) : html을 얼마나 잘 썼는지 확인할 수 있다.
+================================================ -->
+<!-- 3강
+html convention (site) : 다음 웹 표준을 다루다.
+컨텐츠 제목 - 하위섹션명 | 서비스명
+
+검색과 관련된 메타테그
+keywords , description , robots
+robot_content : noindex, nofollow=none
+					index,follow=all
+viewport : 반응형과 관련이 있다.
+
+================================================ -->
+<!-- 4강
+daum troy (site) : 각 기기의 크기 확인가능.
+viewport : 어떻게 보일지.
+	maximum-scale : 화면 zoom 가능한지. (1이면 x)
+	user-scalable=yes or no : 유저가 zoom 가능한지
+	initial-scale=1 : 열자마자 배율
+	
+<포트폴리오에 넣으면 좋은 메타요소>
+<meta name="author" content="geonhui han">
+<meta name="reply-to" content="hansaebit@gmail.com">
+<meta name="generator" content="notepad++">
+<meta name="date" content="2015-01-03T09:00+09:00">
+<meta name="copyright" content="(c)2015 geonhui han">
+
+<기타 메타요소> 추천하지 않음.
+<meta http-equiv="Refresh" content="60*10;url=index.jsp?main=board/boardlist.jsp">
+
+opera mobile emulator (program) : 웹 화면 확인 가능.
+================================================ -->
+<!-- 5강
+id : 유일무이한 이름
+class : 하나 또는 하나 이상의 공통적인 스타일 적용
+
+
+
+================================================ -->
+<!doctype html> 
+<html lang="ko">
+	<head>
+	<!--헤더영역(문서제목과 메타정보 포함)-->
+		<meta charset="utf-8"/>
+		<title>galax s8 - 삼성전자</title>
+		<meta name="keywords" content="galaxy, s8, 스마트폰, 삼성폰"/>
+		<meta name="discipttion" content="카메라 성능이 향상된 galaxy s8"/>
+		<meta name="robot" content="index,follow"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h2>header</h2>
+			</header><!--//header(끝에는//두개 넣어준다.)-->
+			<main>
+				<h2>content</h2>
+				<aside>side navigation</aside>
+				<section>
+					<h3>main content</h3>
+					<article>
+						<h4>article title</h4>
+						<p>paragraph</p>
+					</article>
+					<article>
+						<h4>article title</h4>
+						<p>paragraph</p>
+					</article>
+				</section>
+			</main><!--//content-->
+			<footer>
+				<h2>footer</h2>
+				<address>
+					<p>
+						&copy; copyright all right reserved
+					</p>
+					<p>
+						<a href="mailto:hansaebit@gmail.com">
+						mailto:hansaebit@gmail.com</a>
+					</p>
+				</address>
+			</footer><!--//footer-->
+		</div>
+	</body>
+</html>

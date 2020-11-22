@@ -1,0 +1,29 @@
+<!-- 9강
+anchor 태그 <a>
+링크 걸 때 사용.
+target="_blank"  :  새창으로 열기.
+
+===================================================-->
+<!DCOTYPE html>
+<html lang="ko">
+	<head>
+		<meat charset="utf-8">
+		<title>타이틀</title>
+		<meta name="keywords" content="html5, css3">
+		<meata name="description" content="">
+		<meta name="robots" content="all">
+		<meata name="viewpot" content="width=device-width, initial-scale=1">
+		
+	</head>
+	<body>
+		<h1>Link</h1>
+		<h2>절대 경로</h2>
+		<ul>
+			<li><a href="http://www.naver.com" target="_blank">네이버</a></li>
+			<li><a href="http://www.google.com">구글</a></li>
+			<li><a href="http://www.daum.net">다음</a></li>
+			
+		</ul>
+	</body>
+</html>
+	

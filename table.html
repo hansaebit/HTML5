@@ -1,0 +1,61 @@
+<!-- 8강
+scope는 테이블의 방향에 따른 제목을 알려준다. (col, row)
+
+================================================-->
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="galaxy, s8, 스마트폰, 삼성폰"/>
+		<meta name="discipttion" content="카메라 성능이 향상된 galaxy s8"/>
+		<meta name="robot" content="index,follow"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>8강~</title>
+	</head>	
+	<body>
+		<h1>table</h1>
+		<table border="1">
+			<caption>
+				<h2>분기별 실적표</h2>
+				<p>2018년도 4/4분기 매출 실적표</p>
+			</caption>
+			<thead>
+				<tr>
+					<th scope="col">구분</th>
+					<th scope="col">title1</th>
+					<th scope="col">title2</th>
+					<th scope="col">title3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">no.1</th>
+					<td rowspan="2">title11</td>
+					<td colspan="2">title12</td>
+					<!--<td >title13</td>-->
+				</tr>
+				<tr>
+					<th scope="row">no.2</th>
+					<!--<td >title21</td>-->
+					<td colspan="2">title22</td>
+					<!--<td>title23</td>-->
+				</tr>
+				<tr>
+					<th scope="row">no.3</th>
+					<td>title31</td>
+					<td>title32</td>
+					<td>title33</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th scope="row">total</th>
+					<td>total1</td>
+					<td>total2</td>
+					<td>total3</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+
+</html>
